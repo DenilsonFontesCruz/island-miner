@@ -10,6 +10,7 @@ namespace miner {
                 raylib::Image image(path_string);
                 float length = (float)image.GetWidth() / (float)image.GetHeight();
                 std::cout << length << "\n";
+                
             }
         };
     }
