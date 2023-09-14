@@ -1,4 +1,4 @@
-find_package(SFML COMPONENTS graphics system window REQUIRED QUIET)
+find_package(SFML COMPONENTS graphics system window QUIET)
 if (NOT SFML_FOUND)
     include(FetchContent)
 
