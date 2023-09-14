@@ -3,8 +3,7 @@ cmake_minimum_required(VERSION 3.20)
 project(island-miner)
 
 message("Including Libraries.")
-include(cmake/raylib.cmake)
-include(cmake/raylib_cpp.cmake)
+include(cmake/sfml.cmake)
 
 set(SRC_DIR "${PROJECT_SOURCE_DIR}/src")
 file(GLOB_RECURSE SRC_FILES
@@ -23,4 +22,4 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     "${SRC_DIR}"
 )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE raylib raylib_cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics sfml-system sfml-window)

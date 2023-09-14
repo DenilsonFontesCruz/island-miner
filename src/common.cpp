@@ -3,5 +3,4 @@
 std::atomic_bool g_running{true};
 const int g_game_fps = 60;
 
-constexpr int g_screen_width  = 800;
-constexpr int g_screen_height = 800;
+sf::VideoMode g_screen_size{800u, 700u};

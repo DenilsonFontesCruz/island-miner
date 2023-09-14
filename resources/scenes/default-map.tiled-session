@@ -1,0 +1,35 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "taiga_/map.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "Todos os Ficheiros (*)",
+    "fileStates": {
+        "taiga_/map.tmx": {
+            "scale": 2.479895833333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.13105389171253,
+                "y": 208.07325576511113
+            }
+        },
+        "taiga_/map.tmx#taiga_": {
+            "scaleInDock": 1
+        },
+        "taiga_/map.tmx#taiga_ [resources]": {
+            "scaleInDock": 1
+        }
+    },
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "taiga_/map.tmx"
+    ],
+    "project": "default-map.tiled-project",
+    "recentFiles": [
+        "taiga_/map.tmx"
+    ]
+}
